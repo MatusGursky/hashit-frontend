@@ -31,18 +31,18 @@ npm run lint
 ```
 
 
-
 ### Build the app for production
 ```bash
 quasar build
 ```
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+---
+
 
 ### Images
 
 <img width="1437" alt="image" src="https://github.com/MatusGursky/kb-project-quasar/assets/93670256/73e26607-ee4f-4821-8ba3-218f950c01a0">
+
 <img width="1440" alt="image" src="https://github.com/MatusGursky/kb-project-quasar/assets/93670256/b1e8cabd-b9f8-49a9-ab30-8d502f5c00f6">
 
 
