@@ -1,7 +1,7 @@
 # Frontend for HashIt App
 
 
-Aplikácia umožňuje vytváranie hashov pomocou implementovaného algoritmu SHA-256. Taktiež ponúka aj možnosť využiť ostatné hashovacie funkcie ktoré sú dostupné cez existujúce knižnice. Okrem toho, umožňuje porovnávanie hashov tým, že si uložíme hash a následne sa porovná so súčasným. Ak sa zhodujú, textové polia sa zafarbia zelenou farbou. Tiež je možné skopírovať hodnotu hashu pre ďalšie použitie.
+Aplikácia umožňuje vytváranie hashov pomocou implementovaného algoritmu SHA-256. Taktiež ponúka aj možnosť využiť ostatné hashovacie funkcie ako MD5, SHA3, SHA-224 a pod., ktoré sú dostupné cez existujúce knižnice. Okrem toho, umožňuje porovnávanie hashov tým, že si uložíme hash a následne sa porovnáva so súčasným hashom. Ak sa zhodujú, textové polia sa zafarbia zelenou farbou. Tiež je možné skopírovať hodnotu hashu pre ďalšie použitie.
 
 ## Run application with the following commands:
 
