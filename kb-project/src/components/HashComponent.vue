@@ -118,6 +118,12 @@ const sortHashFunctions = () => {
   return hashFunctions.sort((a, b) => a.label.toLowerCase().localeCompare(b.label.toLowerCase()))
 }
 
+watch(() => inputText.value, () => {
+  if (inputText.value.length === 0) {
+    hashedText.value = ''
+  }
+})
+
 const computeHash = async () => {
   if (!inputText.value || !selectedHashFunction.value) {
     return
