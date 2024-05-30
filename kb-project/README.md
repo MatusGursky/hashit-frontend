@@ -3,6 +3,7 @@
 Run application with the following commands:
 
 ```bash
+kb-project% npm install -g @quasar/cli
 kb-project% npm install
 kb-project% quasar dev
 ```
