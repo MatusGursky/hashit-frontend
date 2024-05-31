@@ -6,6 +6,7 @@ Aplikácia umožňuje vytváranie hashov pomocou implementovaného algoritmu SHA
 ## Run application with the following commands:
 
 ```bash
+% cd kb-project
 kb-project% npm install -g @quasar/cli
 kb-project% npm install
 kb-project% quasar dev
