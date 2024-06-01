@@ -8,7 +8,7 @@ Klient bol naprogramovaný využitím frameworku Vue.js 3 v TypeScirpt a kompone
 Klient obsahuje watch property pre automatické vykonanie hashu pri písaní a pri zvolení hashovacej funkcie.
 Server bol naprogramovaný využitím frameworku FastAPI v Python.
 
-## Run application with the following commands:
+### Run application with the following commands:
 
 ```bash
 % cd kb-project
