@@ -13,7 +13,6 @@ kb-project% npm install -g @quasar/cli
 kb-project% npm install
 kb-project% quasar dev
 ```
----
 
 ### Images
 
