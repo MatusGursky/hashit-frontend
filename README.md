@@ -1,7 +1,7 @@
 # Frontend for HashIt App
 
 
-Aplikácia HahsIt umožňuje vytváranie hashov pomocou implementovaného algoritmu SHA-256. Taktiež ponúka aj možnosť využiť ostatné hashovacie funkcie ako MD5, SHA3, SHA-224 a pod., ktoré sú dostupné cez knižnicu crypto-js. Okrem toho, umožňuje porovnávanie hashov tým, že si uložíme hodnotu hashu a následne sa porovnáva so súčasným hashom. Uložená hodnota hashu obsahuje aj informáciu o použitej hashovacej funkcie. Ak sa hashe zhodujú, textové polia sa zafarbia zelenou farbou. Tiež je možné skopírovať hodnotu hashu pre ďalšie použitie.
+Aplikácia HahsIt umožňuje vytváranie hashov pomocou implementovaného algoritmu SHA-256. Taktiež ponúka aj možnosť využiť ostatné hashovacie funkcie ako MD5, SHA3, SHA-224 a pod., ktoré sú dostupné cez knižnicu crypto-js. Okrem toho, umožňuje porovnávanie hashov tým, že si uložíme hodnotu hashu a následne sa porovnáva so súčasným hashom. Uložená hodnota hashu obsahuje aj informáciu o použitej hashovacej funkcii. Ak sa hashe zhodujú, textové polia sa zafarbia zelenou farbou. Taktiež je možné skopírovať hodnotu hashu pre ďalšie použitie.
 
 Je to klient-server aplikácia.
 Klient bol naprogramovaný využitím frameworku Vue.js 3 v TypeScirpt a komponentovým frameworkom Quasar.
