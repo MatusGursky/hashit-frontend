@@ -42,12 +42,14 @@
                     color="primary"
                     label="Save Hash"
                     @click="saveHash"
+                    :disable="disableBtn"
                   />
                   <q-btn
                     size="sm"
                     label="Copy"
                     color="primary"
                     @click="copyHash"
+                    :disable="disableBtn"
                   />
                 </div>
               </template>
@@ -68,6 +70,7 @@
 
 <script setup lang="ts">
 import {
+  computed,
   ref, watch
 } from 'vue'
 import sha256 from 'crypto-js/sha256'
@@ -89,6 +92,10 @@ const hashedText = ref<string>('')
 const previousHashText = ref<string>('')
 const previousHashFunction = ref<string>('')
 const selectedHashFunction = ref<string>('')
+
+const disableBtn = computed(() => {
+  return !hashedText.value
+})
 
 const hashFunctions = [
   {
