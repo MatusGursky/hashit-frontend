@@ -1,4 +1,4 @@
-# Frontend for HashIt App
+# Frontend - HashIt App
 
 The HashIt application allows the creation of hashes using the implemented SHA-256 algorithm and also offers the option to use other hashing functions such as MD5, SHA3, SHA-224, and others available through the crypto-js library. It also enables hash comparison by saving the hash value and then comparing it with the current hash. The saved hash value includes information about the used hashing function. If the hashes match, the text fields are highlighted in green. The application also allows copying the hash value for further use. The client contains a watch property for automatically performing the hash when typing and when selecting the hashing function.
 
